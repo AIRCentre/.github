@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-# Non-Functional Requirement
-
 ### **Description**
 Provide a clear and concise description of the specific non-functional requirement.  
 Example: "The system must respond to 95% of user requests within 1 second under a load of 1,000 concurrent users."
