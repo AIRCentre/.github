@@ -18,15 +18,15 @@ Example: "Users must be able to reset their password via an email link."
 ### **Acceptance Criteria**
 Define testable criteria for validating the requirement, using the "Given-When-Then" format.
 
-    - **Given** the user is on the login page and has forgotten their password,  
-    - **When** they click the "Forgot Password" link and provide a registered email address,  
-    - **Then** the system sends a password reset email with a secure link.
+- **Given** the user is on the login page and has forgotten their password,  
+- **When** they click the "Forgot Password" link and provide a registered email address,  
+- **Then** the system sends a password reset email with a secure link.
 
-    ---
+<br>
 
-    - **Given** the user has received the password reset email,  
-    - **When** they click the link and provide a new password,  
-    - **Then** the system updates their password and confirms the change.
+- **Given** the user has received the password reset email,  
+- **When** they click the link and provide a new password,  
+- **Then** the system updates their password and confirms the change.
 
 ---
 
