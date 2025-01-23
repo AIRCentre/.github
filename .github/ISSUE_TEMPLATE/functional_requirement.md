@@ -1,42 +1,48 @@
 ---
-name: Requirement  
-about: Create a new requirement for the system  
-title: 'REQ: [Short description of the requirement. Example: users can login]'  
-labels: requirement
+name: Functional Requirement
+about: Define a functional requirement with clear and testable acceptance criteria.
+title: "[FR] "
+labels: feature
 assignees: ''
 
 ---
-### **Description**  
-[Provide a clear and concise description of the requirement.]  
-**Example**: The system must allow users to log in using their email and password. Upon successful login, users should be redirected to their home page.
+
+# Functional Requirement
+
+### **Description**
+Provide a clear and concise description of the functional requirement.  
+Example: "Users must be able to reset their password via an email link."
 
 ---
 
-### **Acceptance Criteria**  
+### **Acceptance Criteria**
+Define testable criteria for validating the requirement, using the "Given-When-Then" format.
 
-- **Given**  
-    [Describe the initial state. Example: The user is on the login page and has already registered an account.]
+- **Given** the user is on the login page and has forgotten their password,  
+  - **When** they click the "Forgot Password" link and provide a registered email address,  
+  - **Then** the system sends a password reset email with a secure link.
 
-- **When**  
-    [Describe the action or event. Example: The user enters their email and password and clicks the "Login" button.]
-
-- **Then**  
-    [Describe the expected outcome. Example: The system should authenticate the credentials and redirect the user to their home page.]
-
----
-
-### **Additional Context**  
-[Include screenshots, references, or other relevant information. Example: User flow diagram for the login process.]
+- **Given** the user has received the password reset email,  
+  - **When** they click the link and provide a new password,  
+  - **Then** the system updates their password and confirms the change.
 
 ---
 
-### **Dependencies**  
-[List related issues or PRs that must be addressed, or 'None' if there aren't any. Example: Issue #123 for implementing the email/password validation logic.]  
+### **Additional Context**
+Include any relevant details, diagrams, references, or assumptions to clarify the requirement.  
+For example:
+- The password reset link should expire after 24 hours.
+- The new password must meet security requirements (e.g., minimum length, special characters).
 
 ---
 
-### **Checklist**  
-- [ ] Requirement is well-defined  
-- [ ] Acceptance criteria are testable  
-- [ ] Dependencies are linked  
-- [ ] Stakeholders have reviewed this issue
+### **Dependencies**
+List any related issues, pull requests, or tasks that are linked to this functional requirement.
+
+---
+
+### **Checklist**
+- [ ] Requirement is clearly defined.
+- [ ] Acceptance criteria are testable.
+- [ ] Dependencies are linked.
+- [ ] Stakeholders have reviewed the issue.
