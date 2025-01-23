@@ -26,8 +26,7 @@ Define testable criteria for validating the requirement, using the "Given-When-T
 
 - **Given** the user has received the password reset email,  
 - **When** they click the link and provide a new password,  
-- **Then** the system updates their password and confirms the change.
-
+- **Then** the user can log in with their new password.
 ---
 
 ### **Additional Context**
