@@ -2,7 +2,7 @@
 name: Functional Requirement
 about: Define a functional requirement with clear and testable acceptance criteria.
 title: "[FR] "
-type: feature
+labels: feature
 assignees: ''
 
 ---
