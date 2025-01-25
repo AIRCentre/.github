@@ -2,7 +2,7 @@
 name: Non-Functional Requirement
 about: Define a non-functional requirement with measurable acceptance criteria.
 title: "[NFR] "
-labels: enhancement
+type: enhancement
 assignees: ''
 
 ---
